@@ -1,0 +1,12 @@
+.hover\:underline-with-gap:hover {
+    text-decoration: none; /* Remove the default underline */
+  }
+  
+  .hover\:underline-with-gap:hover::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: currentColor; /* Match the text color */
+    margin-top: 1px; /* Adjust the gap */
+  }

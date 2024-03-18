@@ -21,6 +21,7 @@ export default {
         palanquin: ['Palanquin', 'sans-serif'],
         montserrat: ['Montserrat', 'sans-serif'],
         nunito : ["Nunito Sans", 'sans-serif'],
+        gothic : ["Gothic A1, sans-serif"],
       },
       colors: {
         'primary': "#ECEEFF",
